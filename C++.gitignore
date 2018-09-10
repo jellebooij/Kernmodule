@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+/Debug
+
 # User-specific files
 *.suo
 *.user
@@ -240,6 +242,7 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
+
 
 # SQL Server files
 *.mdf
