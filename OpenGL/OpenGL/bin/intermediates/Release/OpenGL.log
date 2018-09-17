@@ -1,0 +1,19 @@
+﻿  Main.cpp
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(75): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(178): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(180): warning C4018: '<': signed/unsigned mismatch
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  1 of 771 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Jelle Booij\Desktop\C++ Projecten\OpenGL\OpenGL\bin\Release\vc120.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> C:\Users\Jelle Booij\Desktop\C++ Projecten\OpenGL\OpenGL\bin\Release\OpenGL.exe

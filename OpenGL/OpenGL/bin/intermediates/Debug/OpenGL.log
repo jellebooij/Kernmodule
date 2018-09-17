@@ -1,0 +1,12 @@
+﻿  Main.cpp
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(75): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(178): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(180): warning C4018: '<': signed/unsigned mismatch
+  OpenGL.vcxproj -> C:\Users\Jelle Booij\Desktop\C++ Projecten\OpenGL\OpenGL\bin\Debug\OpenGL.exe
