@@ -1,0 +1,6 @@
+﻿  Main.cpp
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(120): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(134): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(136): warning C4018: '<': signed/unsigned mismatch
+c:\users\jelle booij\desktop\c++ projecten\opengl\opengl\opengl\src\main.cpp(138): warning C4018: '<': signed/unsigned mismatch
+  OpenGL.vcxproj -> C:\Users\Jelle Booij\Desktop\C++ Projecten\OpenGL\OpenGL\bin\Debug\OpenGL.exe
