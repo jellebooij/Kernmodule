@@ -1189,5 +1189,8 @@
     <Image Include="res\textures\pack.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\textures\terrain.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -58,7 +58,7 @@ float position[] = {
 glm::mat4 model(1.0);
 
 BlockRenderer::BlockRenderer(const Renderer& renderer) :
-	shader("res/shaders/Sprite.shader"), tex("res/textures/pack.png"), vb(position, 5 * 36 * sizeof(float)), renderer(renderer)
+	shader("res/shaders/Sprite.shader"), tex("res/textures/terrain.png"), vb(position, 5 * 36 * sizeof(float)), renderer(renderer)
 {	
 	
 	layout.Push<float>(3);

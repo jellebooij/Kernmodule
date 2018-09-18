@@ -129,25 +129,9 @@ int main(void)
 				/* Render here */
 				glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-				int d = 8;
-
-				for (size_t x = 0; x < d; x++)
-				{
-					for (size_t y = 0; y < d; y++)
-					{
-						for (size_t z = 0; z < d; z++)
-						{
-								r.drawBlock(x, y, z);
-						}
-						
-					}
-				}
 
 				r.drawBlock(0, 0, 0);
-				r.drawBlock(1, 0, 0);
-				r.drawBlock(2, 1, 0);
-				r.drawBlock(3, 2, 0);
-				r.drawBlock(4, 3, 0);
+
 
 				/* Swap front and back buffers */
 				glfwSwapBuffers(window);
