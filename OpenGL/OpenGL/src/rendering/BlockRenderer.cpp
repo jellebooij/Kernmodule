@@ -10,14 +10,26 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
-float position[] = {
--0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
- 0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
- 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
- 0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
--0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
--0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
 
+const int pX = 8;
+const int pY = 7;
+
+const float t = 1.0f / 16.0f;
+
+float yMin = (16 - (pY + 1)) * t;
+float yMax = (16 - (pY)) * t;
+float xMin = pX * t;
+float xMax = (pX + 1) * t;
+
+
+float position[] = {
+-0.5f, -0.5f, -0.5f,  xMin, yMin,
+ 0.5f, -0.5f, -0.5f,  xMax, yMin,
+ 0.5f,  0.5f, -0.5f,  xMax, yMax,
+ 0.5f,  0.5f, -0.5f,  xMax, yMax,
+-0.5f,  0.5f, -0.5f,  xMin, yMax,
+-0.5f, -0.5f, -0.5f,  xMin, yMin,
+/*
 -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
  0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
  0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
@@ -52,6 +64,7 @@ float position[] = {
  0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
 -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
 -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
+*/
 };
 
 
